@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EComerce-cart-example/static/css/main.2b4be3a8.css",
+    "main.js": "/EComerce-cart-example/static/js/main.bfef73bf.js",
+    "static/js/787.48731c58.chunk.js": "/EComerce-cart-example/static/js/787.48731c58.chunk.js",
+    "index.html": "/EComerce-cart-example/index.html",
+    "main.2b4be3a8.css.map": "/EComerce-cart-example/static/css/main.2b4be3a8.css.map",
+    "main.bfef73bf.js.map": "/EComerce-cart-example/static/js/main.bfef73bf.js.map",
+    "787.48731c58.chunk.js.map": "/EComerce-cart-example/static/js/787.48731c58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b4be3a8.css",
+    "static/js/main.bfef73bf.js"
+  ]
+}

@@ -1,0 +1,40 @@
+input {
+  margin-top: 3.5rem;
+  width: 20rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  border: 1px silver solid;
+  padding-left: 0.75rem;
+  display: block;
+}
+input:focus {
+  border: 1px silver solid;
+  outline: none;
+}
+
+section {
+  margin-top: 3rem;
+  width: 80rem;
+  display: flex;
+  flex-direction: column;
+}
+section .products {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 0rem 0rem -1rem;
+}
+
+section h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+@media (max-width: 1440px) {
+  section {
+    width: 50rem;
+  }
+}
+@media (max-width: 768px) {
+  section {
+    width: 30rem;
+  }
+}

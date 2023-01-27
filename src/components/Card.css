@@ -1,0 +1,75 @@
+.productCard {
+  padding: 1rem 2rem 1rem 1rem;
+  margin: 1rem 1rem 1rem 1rem;
+  border: 1px solid var(--Light-Accent);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-basis: calc(33% - 2rem);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productCard img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 0.4rem;
+}
+.productCard p {
+  flex-basis: calc(20%);
+  text-align: center;
+  padding: 1rem;
+  font-weight: 600;
+}
+.productCard .subtotal {
+  font-size: 1.5rem;
+}
+.productCard .inc-dec {
+  display: flex;
+  align-items: center;
+}
+.productCard .inc-dec button {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px var(--Light-Accent) solid;
+  background: linear-gradient(
+    -20deg,
+    var(--Light-Accent) -100%,
+    transparent 200%
+  );
+  font-weight: 600;
+  color: var(--Dark-Shade);
+}
+.productCard .inc-dec button:hover {
+  background: linear-gradient(
+    -20deg,
+    var(--Light-Accent) 00%,
+    transparent 200%
+  );
+}
+.productCard .inc-dec button:active {
+  background: linear-gradient(
+    -20deg,
+    var(--Light-Accent) -150%,
+    transparent 200%
+  );
+  font-weight: 600;
+}
+
+@media (max-width: 1440px) {
+  .productCard {
+    flex-basis: calc(50% - 2rem);
+  }
+}
+@media (max-width: 768px) {
+  .productCard {
+    flex-basis: calc(50% - 2rem);
+  }
+  .productCard img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.4rem;
+  }
+}
